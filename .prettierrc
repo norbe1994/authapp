@@ -1,6 +1,5 @@
 {
-  "semi": false,
-  "tabWidth": 120,
+  "tabWidth": 140,
   "singleQuote": true,
   "trailingComma": "all"
 }
