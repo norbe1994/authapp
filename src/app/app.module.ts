@@ -9,6 +9,7 @@ import { ProtegidaComponent } from './components/protegida/protegida.component';
 import { PreciosComponent } from './components/precios/precios.component';
 // servicios
 import { AuthService } from './services/auth.service';
+import { CallbackComponent } from './components/callback/callback.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AuthService } from './services/auth.service';
     NavbarComponent,
     HomeComponent,
     ProtegidaComponent,
-    PreciosComponent
+    PreciosComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,
