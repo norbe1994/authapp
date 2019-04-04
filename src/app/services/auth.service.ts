@@ -15,7 +15,7 @@ export class AuthService {
     clientID: 'pG4XvUduw47KIXw062lnWroVhJkSugbZ',
     domain: 'norberto.auth0.com',
     responseType: 'token id_token',
-    redirectUri: 'http://localhost:3000/callback',
+    redirectUri: 'http://localhost:4200/callback',
     scope: 'openid'
   });
 
