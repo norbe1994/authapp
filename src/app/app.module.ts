@@ -9,6 +9,7 @@ import { ProtegidaComponent } from './components/protegida/protegida.component';
 import { PreciosComponent } from './components/precios/precios.component';
 // servicios
 import { AuthService } from './services/auth.service';
+import { AuthGuardService } from './services/auth-guard.service';
 import { CallbackComponent } from './components/callback/callback.component';
 
 
@@ -26,7 +27,8 @@ import { CallbackComponent } from './components/callback/callback.component';
     APP_ROUTING
   ],
   providers: [
-    AuthService
+    AuthService,
+    AuthGuardService
   ],
   bootstrap: [AppComponent]
 })
